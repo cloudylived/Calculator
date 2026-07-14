@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [v0.7] - Multiple Calculation Support
+
+### Added
+
+- Added support for performing multiple calculations without restarting the program
+- Added a continue choice prompt after each calculation
+- Added validation for continue choices
+
+### Changed
+
+- Improved user-facing error messages
+- Improved calculator flow and usability
+
 ## [v0.6] - 2026-07-13
 
 ### Added
