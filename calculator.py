@@ -1,67 +1,76 @@
 print("Welcome to Cloudy's Calculator, let's get started!")
 
-number_input_valid = False
+calculator_on = True
 
-while not number_input_valid:
-    try:
-        number1 = float(input("First number: "))  
-        number_input_valid = True
+while calculator_on:
 
-    except:
-        print("Please enter a number")
+    number_input_valid = False
 
-number_input_valid = False
+    while not number_input_valid:
+        try:
+            number1 = float(input("First number: "))  
+            number_input_valid = True
 
-while not number_input_valid:
-    try:
-        number2 = float(input("Second number: "))
-        number_input_valid = True
+        except:
+            print("Please enter a number")
 
-    except:
-        print("Please enter a number")
+    number_input_valid = False
 
-operation_valid = False
-calculation_valid = False
+    while not number_input_valid:
+        try:
+            number2 = float(input("Second number: "))
+            number_input_valid = True
 
-while not operation_valid:
-        operation = input("Operation: ")
+        except:
+            print("Please enter a number")
 
-        if operation == "+":
-            operation_valid = True
+    operation_valid = False
+    calculation_valid = False
 
-        elif operation == "-":
-            operation_valid = True
+    while not operation_valid:
+            operation = input("Operation: ")
 
-        elif operation == "*":
-            operation_valid = True
+            if operation == "+":
+                operation_valid = True
 
-        elif operation == "/":
-            operation_valid = True
+            elif operation == "-":
+                operation_valid = True
 
-        else:
-            print("Invalid operation, try again")
+            elif operation == "*":
+                operation_valid = True
 
-if operation == "+":
-    answer = number1 + number2
-    calculation_valid = True
+            elif operation == "/":
+                operation_valid = True
 
-elif operation == "-":
-    answer = number1 - number2
-    calculation_valid = True
+            else:
+                print("Invalid operation, try again")
 
-elif operation == "*":
-    answer = number1 * number2
-    calculation_valid = True
-
-elif operation == "/":
-    if number2 == 0:
-        print("Error: Cannot divide by zero")
-    else:
-        answer = number1 / number2
+    if operation == "+":
+        answer = number1 + number2
         calculation_valid = True
 
-if calculation_valid:
-    print(answer)
+    elif operation == "-":
+        answer = number1 - number2
+        calculation_valid = True
+
+    elif operation == "*":
+        answer = number1 * number2
+        calculation_valid = True
+
+    elif operation == "/":
+        if number2 == 0:
+            print("Error: Cannot divide by zero")
+        else:
+            answer = number1 / number2
+            calculation_valid = True
+
+    if calculation_valid:
+        print(answer)
+    
+    continue_choice = input("New calculation? (y/n): ")
+
+    if continue_choice == "n":
+        calculator_on = False
 
     
 
