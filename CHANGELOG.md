@@ -4,7 +4,14 @@ All notable changes to this project will be documented in this file.
 
 ---
 
-## [v0.7] - Multiple Calculation Support
+## [v0.8] - 16-07-2026
+
+### Added 
+
+- Added an exponentiation function
+
+
+## [v0.7] - 14-07-2026
 
 ### Added
 
@@ -17,7 +24,7 @@ All notable changes to this project will be documented in this file.
 - Improved user-facing error messages
 - Improved calculator flow and usability
 
-## [v0.6] - 2026-07-13
+## [v0.6] - 13-07-2026
 
 ### Added
 - Added calculation validation to prevent displaying undefined results.
@@ -28,7 +35,7 @@ All notable changes to this project will be documented in this file.
 
 ---
 
-## [v0.5] - 2026-07-13
+## [v0.5] - 13-07-2026
 
 ### Added
 - Added validation for numerical input using `try`/`except`.
@@ -36,14 +43,14 @@ All notable changes to this project will be documented in this file.
 
 ---
 
-## [v0.4] - 2026-07-13
+## [v0.4] - 13-07-2026
 
 ### Added
 - Added protection against division by zero.
 
 ---
 
-## [v0.3] - 2026-07-13
+## [v0.3] - 13-07-2026
 
 ### Added
 - Added validation for invalid mathematical operations.
@@ -51,14 +58,14 @@ All notable changes to this project will be documented in this file.
 
 ---
 
-## [v0.2] - 2026-07-12
+## [v0.2] - 12-07-2026
 
 ### Added
 - Initial calculator implementation.
 - Support for addition (`+`), subtraction (`-`), multiplication (`*`), and division (`/`).
 - Support for decimal calculations using floating-point numbers.
 
-## [v0.1] - 2026-07-13
+## [v0.1] - 12-07-2026
 
 ### Added
 - Initial project created.

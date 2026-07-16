@@ -15,6 +15,7 @@ Version 0.7 - Multiple Calculation Support
   - Subtraction (-)
   - Multiplication (*)
   - Division (/)
+  - Exponentiation (**)
 - Supports decimal calculations using floating-point numbers
 - Validates user input for numbers and operations
 - Prevents division by zero
@@ -34,7 +35,6 @@ python calculator.py
 ## Planned Improvements
 
 - Refactor the calculator using functions
-- Add additional operations such as powers and percentages
 - Improve code structure and reduce repeated code
 
 ## Development

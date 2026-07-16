@@ -44,6 +44,9 @@ while calculator_on:
             elif operation == "/":
                 operation_valid = True
 
+            elif operation == "**":
+                operation_valid = True
+
             else:
                 print("Invalid operation. Please choose from the following: + - * /")
 
@@ -65,6 +68,10 @@ while calculator_on:
         else:
             answer = number1 / number2
             calculation_valid = True
+
+    elif operation == "**":
+        answer = number1 ** number2
+        calculation_valid = True
 
     if calculation_valid:
         print(answer)
